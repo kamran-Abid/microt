@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    height: 30px;
+    background-color: #ee8308;
+}
+.heading{
+    margin-top: 50px;
+}
+#portfolios{
+    height: 100vh;
+}
+@media screen and (min-width: 480px) {
+    #navbar {
+      background-color: #08eee2;
+    }
+  }
